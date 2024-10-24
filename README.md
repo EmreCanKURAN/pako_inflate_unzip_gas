@@ -20,7 +20,7 @@ This project provides a ZIP extraction tool using Google Apps Script that extrac
 1. **Open Google Apps Script Editor**: Create a new Google Apps Script project by navigating to https://script.google.com/.
 2. **Copy and Paste the Script**: Copy the provided JavaScript code for `ZipExtractor` and `extractZip` functions into the editor.
 3. **Add Pako Library**:
-    - Download the `pako.min.gs`.
+    - Download the `pako.min.gs` from "lib".
     - Include `pako.min.gs` in your Apps Script project by creating a new file in the script editor and pasting the minified code.
 4. **Save the Project**.
 
