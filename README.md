@@ -2,7 +2,7 @@
 # ZIP Extractor for Google Apps Script
 
 ## Overview
-This project provides a ZIP extraction tool using Google Apps Script that extracts the contents of a ZIP file stored on Google Drive. It parses the ZIP file and extracts all files, maintaining folder structure and decompressing files if necessary, using the `pako` library for handling Deflate compression.
+This project provides a ZIP extraction tool using Google Apps Script that extracts the contents of a ZIP file stored on Google Drive. **Fixes the "invalid argument" and similar errors** encountered during ZIP extraction by ensuring correct handling of file headers and decompression arguments. Works for (tested on) deflate compression. It parses the ZIP file and extracts all files, maintaining folder structure and decompressing files if necessary, using the `pako` library for handling Deflate compression.
 
 ## Features
 - **MS-DOS Timestamp Decoding**: Decodes file timestamps stored in MS-DOS format.
