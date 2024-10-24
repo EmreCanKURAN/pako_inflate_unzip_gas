@@ -1,5 +1,5 @@
 function main() {
-  const zipFileId = '12jFnvBR2KisA9fzIH1kL57Jutf8uSIr3'; // Replace with your ZIP file ID
+  const zipFileId = 'ZIP_FILE_ID'; // Replace with your ZIP file ID
 
   // Get the file object using the file ID
   const file = DriveApp.getFileById(zipFileId);
